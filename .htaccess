@@ -1,0 +1,22 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c> 
+	RewriteEngine on
+	php_value post_max_size 200M
+	php_value upload_max_filesize 200M
+	php_value memory_limit 300M
+	php_value max_execution_time 300
+	php_value max_input_time 300
+	php_value session.gc_maxlifetime 1200
+	RewriteRule ^bca-admin(.*)$ backend/web/$1 [L,PT]
+	RewriteRule ^(.*)$ frontend/$1 [L] 
+</IfModule>
+
+# Deny accessing below extensions
+<Files ~ "(.json|.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]

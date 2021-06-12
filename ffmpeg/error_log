@@ -1,0 +1,621 @@
+[27-Jun-2019 17:47:36 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 70.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 70.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUBOEo1UrDjowPXAfaVPwAAAUU',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUBOEo1UrDjowPXAfaVPwAAAUU',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62248',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561657656.3890960216522216796875,
+    'REQUEST_TIME' => 1561657656,
+]
+[27-Jun-2019 17:48:42 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUBeqiYEzSNCq@loPM42AAAA08',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUBeqiYEzSNCq@loPM42AAAA08',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62342',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561657722.078444957733154296875,
+    'REQUEST_TIME' => 1561657722,
+]
+[27-Jun-2019 17:56:29 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUDTaiYEzSNCq@loPM9-AAAA04',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUDTaiYEzSNCq@loPM9-AAAA04',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62780',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658189.37712192535400390625,
+    'REQUEST_TIME' => 1561658189,
+]
+[27-Jun-2019 17:56:43 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUDW51jysmCfMduTFJZ6gAAA5I',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUDW51jysmCfMduTFJZ6gAAA5I',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62794',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658203.4789268970489501953125,
+    'REQUEST_TIME' => 1561658203,
+]
+[27-Jun-2019 17:57:10 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 73.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUDdsYzdrDfBhwwjpBafQAAAhI',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUDdsYzdrDfBhwwjpBafQAAAhI',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62827',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658230.4993369579315185546875,
+    'REQUEST_TIME' => 1561658230,
+]
+[27-Jun-2019 17:58:28 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_PRAGMA' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUDxCS7ZErA0d58mvdwfwAAAII',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUDxCS7ZErA0d58mvdwfwAAAII',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62900',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658308.0359079837799072265625,
+    'REQUEST_TIME' => 1561658308,
+]
+[27-Jun-2019 17:58:55 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUD38YzdrDfBhwwjpBbFQAAAhA',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUD38YzdrDfBhwwjpBbFQAAAhA',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62924',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658335.270577907562255859375,
+    'REQUEST_TIME' => 1561658335,
+]
+[27-Jun-2019 17:59:02 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUD5mpoDGhkJI7QNOm51AAAAoY',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUD5mpoDGhkJI7QNOm51AAAAoY',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '62923',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658342.5679819583892822265625,
+    'REQUEST_TIME' => 1561658342,
+]
+[27-Jun-2019 18:02:06 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUEniS7ZErA0d58mvdyWAAAAJM',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUEniS7ZErA0d58mvdyWAAAAJM',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '63133',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561658526.3722779750823974609375,
+    'REQUEST_TIME' => 1561658526,
+]
+[27-Jun-2019 18:27:43 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/wel3ko53zalh/public_html/educationalparadise.com/backend/controllers/SiteController.php on line 76.' in /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/wel3ko53zalh/public_html/educationalparadise.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=2178ea8a-0235-4805-92db-079df3100693; advanced-frontend=99aqom3jsjtn1tnm5l6t7gu4k3; _csrf-frontend=135399ccb213ed86ab1a0aa5cbf0ab7826873b044e965b1d0383d73a00a4b4e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220pMqIH573a9d9yE0PZIWpfWz6fv1LXJr%22%3B%7D; _tccl_visit=217a2d13-9321-4c99-bcfc-0712a4a5ec6a; bca-backend=sref1cr82l9k5a32o2rtk73254; _identity-backend=7d2037a29629131bc0c4c50d806016dd247309444f997f1ea4b58c5b0be2de0fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2216WdqPo5YFjXe1xmJua5z4O_-CsoRVS8%22%2C2592000%5D%22%3B%7D; _csrf-backend=311a1f8bc537d3ba23f025096a2b9ba49d601b121ad6670bcbb3de9cad901a5da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UKYf5QH3N_tXbIkLhRuq75Rod3skIFY-%22%3B%7D',
+    'HTTP_HOST' => 'www.educationalparadise.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'XRUKnjhpC1Ji@GpFOgOqIwAAAME',
+    'REDIRECT_SCRIPT_URL' => '/backend/web/site/test',
+    'REDIRECT_SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XRUKnjhpC1Ji@GpFOgOqIwAAAME',
+    'SCRIPT_URL' => '/backend/web/site/test',
+    'SCRIPT_URI' => 'http://www.educationalparadise.com/backend/web/site/test',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.educationalparadise.com',
+    'SERVER_ADDR' => '43.255.154.42',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '27.4.10.241',
+    'DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/wel3ko53zalh/public_html/educationalparadise.com',
+    'SERVER_ADMIN' => 'webmaster@educationalparadise.bridgecampus.com',
+    'SCRIPT_FILENAME' => '/home/wel3ko53zalh/public_html/educationalparadise.com/backend/web/index.php',
+    'REMOTE_PORT' => '64726',
+    'REDIRECT_URL' => '/backend/web/site/test',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/web/site/test',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1561660062.846993923187255859375,
+    'REQUEST_TIME' => 1561660062,
+]
